@@ -11,8 +11,8 @@ const Top=()=>{
     const [modalShow2, setModalShow2] = React.useState(false);
     return(
         <>
-        <div className="container-fluid top">
-            <div className="row">
+        <div className="container-fluid ">
+            <div className="row top">
                 <div className="col-sm-12">
                 <div className="heading">
                     <h3>Coronavirus disease (COVID-19)<br/>

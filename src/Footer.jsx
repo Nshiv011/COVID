@@ -5,8 +5,8 @@ import brillica from './Images/logo.png'
 const Footer=()=>{
     return(
         <>
-        <div className="container-fluid footer">
-        <div className="row ">
+        <div className="container-fluid ">
+        <div className="row footer">
         <div className="col-sm-1"></div>
         
             <div className="col-sm-3 first">
@@ -64,8 +64,8 @@ Uttarakhand 248121
         </div>
 
 
-<div className="container-fluid last ">
-<div className="row">
+<div className="container-fluid  ">
+<div className="row last">
     <div className="col-sm-1">
 
     </div>

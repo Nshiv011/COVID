@@ -18,7 +18,8 @@ const Bottom=()=>{
     return(
         <>
         {/* BUTTON */}
-<div className="container-fluid button">
+<div className="container-fluid ">
+<div className="row button">
     <div className="row upper">
         <div className="col-sm-2">
 
@@ -41,7 +42,7 @@ const Bottom=()=>{
     </div>
 
 
-    <div className="row upper">
+    <div className="row upper ">
     <div className="col-sm-2">
 
 </div>
@@ -61,14 +62,15 @@ const Bottom=()=>{
     
 </div>
     </div>
+    </div>
 
 
 </div>
 
 
 {/* social */}
-<div className="container-fluid social-button">
-    <div className="row upper2">
+<div className="container-fluid ">
+    <div className="row upper2 social-button">
         <div className="col-sm-2">
 
         </div>

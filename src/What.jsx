@@ -7,7 +7,7 @@ import fever from "./Images/fever.png";
 const What=()=>{
     return(
         <>
-        <div className="conatiner-fluid i">
+        <div className="conatiner-fluid">
             <div className="row i">
                 <div className="col-sm-2">
 
