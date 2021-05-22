@@ -443,7 +443,7 @@ background-image: url('./Images/back.png');
 }
 
 .facebook{
-  width: 70%;
+  width: 50%;
   justify-content: center;
 }
 .socials{
@@ -663,7 +663,10 @@ justify-content: center;
   text-align: center;
 }
 .country{
-  width: 100%;
+  width: 80%;
+}
+.count{
+  justify-content: center !important;
 }
 
 .i{
