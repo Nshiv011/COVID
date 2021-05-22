@@ -1,6 +1,6 @@
 import React from 'react';
-import covid from './Images/covid.png';
-import brillica from './Images/logo.png'
+import covid1 from './Images/covid1.png';
+import brillica1 from './Images/logo1.png'
 
 const Footer=()=>{
     return(
@@ -10,7 +10,7 @@ const Footer=()=>{
         <div className="col-sm-1"></div>
         
             <div className="col-sm-3 first">
-                    <img src={covid} className="covids"/>
+                    <img src={covid1} className="covids"/>
                     <div className="footer-content">
                     <p>Quis ipsum suspendisse ultrices 
                     gravida. Risus commodo viverra 
@@ -50,7 +50,7 @@ Uttarakhand 248121
 
             <div className="col-sm-3 fourth">
             <h4 className="quick">An Initiative</h4>
-            <img src={brillica} className="brillica"/>
+            <img src={brillica1} className="brillica"/>
 
 
             
