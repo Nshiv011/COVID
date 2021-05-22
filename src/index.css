@@ -499,11 +499,13 @@ background-image: url('./Images/back.png');
   width: 100%;
 }
 .what{
-  width: 90%;
+  width: 100%;
 }
 .whats{
-  padding: 100px;
+  padding: 0px;
   display: flex;
+  padding-top: 90px;
+padding-bottom: 120px;
 }
 .whats2{
   padding: 60px;
