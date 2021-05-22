@@ -67,7 +67,7 @@ Prevention Management</NavDropdown.Item>
 
                 
                 
-                <button className="volun"><a href="/join">
+                <button className="volun"><a href="/sick">
                 ARE YOU SICK?</a>
                 </button> 
 
