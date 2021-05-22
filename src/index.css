@@ -33,14 +33,14 @@ code {
   margin: 0;
 }
 .header{
-  background-image: url('./Images/footer.png');
-  background-repeat: no-repeat;
+  background-color: #e7faff;
   width: 100%;
 
 }
 .p{
   padding-left: 0px !important;
   padding-right: 0px !important;
+
 }
 .footer{
   background-image: url('./Images/footer.png');
@@ -98,8 +98,8 @@ code {
 
 }
 .covid{
-  width: 60%;
-margin-top: 10px;
+  width: 100%;
+margin-top: 17px;
 }
 .adress{
   text-align: left;
@@ -134,8 +134,8 @@ margin-top: 10px;
   margin-bottom: 0px !important;
 }
 .head-fourth{
-  text-align: center;
-  color: white;
+  text-align: left;
+  color: #00033a;
   margin-top: 10px;
   font-size: 15px;
   padding-left: 0px !important;
@@ -151,12 +151,13 @@ margin-top: 10px;
   font-weight: 700;
   font-size: 20px;
   margin-top: 10px;
+  margin-left: 6px;
 
 }
 .head-second{
   text-align: center;
   color: white;
-  margin-top: 10px;
+  margin-top: 70px;
   font-size: 15px;
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -167,18 +168,18 @@ margin-top: 10px;
   justify-content: end;
 }
 .plasma{
-  background-color: red;
-  border:1px red solid;
+  background-color: #121b7b;
+  border:1px #121b7b solid;
   border-radius: 150px;
- 
+ margin-left: 44px;
   font-weight: 600;
   margin-right: 10px;
 }
 .plasma a:visited, .plasma a, .plasma a:hover{
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 710;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 600;
 }
 .items a:visited{
   color: black;
@@ -205,8 +206,8 @@ margin-top: 10px;
   color: black !important;
 }
 .Important{
-  background-color: blue;
-  border:1px blue solid;
+  background-color: #121b7b;
+  border:1px #121b7b solid;
   border-radius: 150px;
   
   font-weight: 600;
@@ -216,29 +217,29 @@ margin-top: 10px;
 }
 .Important a:visited, .Important a, .Important a:hover{
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 710;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 600;
 
 }
 .resource{
-  background-color: rgb(121, 248, 117);
-  border:1px rgb(121, 248, 117) solid;
+  background-color: #121b7b;
+  border:1px #121b7b solid;
   border-radius: 150px;
  
   font-weight: 600;
-  margin-right: 10px;
+
 
 }
 .resource a:visited, .resource a, .resource a:hover{
   color: white;
-  font-weight: 710;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .volunter{
-  background-color: rgb(255, 168, 7);
-  border:1px rgb(255, 168, 7) solid;
+  background-color: #121b7b;
+  border:1px #121b7b solid;
   border-radius: 150px;
  
   
@@ -253,24 +254,7 @@ margin-top: 10px;
   padding-right: 20px;
   color: white;
 }
-.sick-b{
-  background-color: red;
-  border:1px red solid;
-  border-radius: 10px;
-  padding: 5px;
-  font-size: 25px;
 
-  padding-left: 25px;
-  padding-right: 25px;
-  font-weight: 600;
- margin-bottom: 20px;
-  color: white;
-
-}
-.sick-b a, .sick-b a:visited, .sick-b a:hover{
-  color: white;
-  text-decoration: none;
-}
 .itms{
   color: white;
   background-color: black;
@@ -284,6 +268,8 @@ margin-top: 10px;
 .p{
   font-size: 13.5px;
   font-weight: 800;
+  display: flex;
+flex-wrap: nowrap;
 }
 .anti{
   padding-top: 100px;
@@ -571,11 +557,23 @@ margin-top:100px;
   border: white 3px solid !important;
   margin-right: 20px;
   color: white !important;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
   font-weight: 700 !important;
   font-size: 17px !important;
   margin-bottom: 100px;
+}
+.btn-danger{
+  background-color: #f70000 !important;
+border-radius: 0px !important;
+border: white 3px solid !important;
+margin-right: 20px;
+color: white !important;
+padding-left: 10px !important;
+padding-right: 10px !important;
+font-weight: 700 !important;
+font-size: 17px !important;
+margin-bottom: 100px;
 }
 
 .btn-success{
@@ -583,8 +581,8 @@ margin-top:100px;
   border: white 3px solid !important;
   margin-right: 20px;
   color: white !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
   font-weight: 700 !important;
   font-size: 17px !important;
   margin-bottom: 100px;
@@ -606,16 +604,31 @@ margin-top:100px;
   font-weight: 500;
 }
 .volunters{
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
   padding: 8px;
-  font-weight: 800;
+  font-weight: 600;
   border-radius: 20px;
-  background-color: #f78b00;
-  border-color: #f78b00 ;
+  background-color: #121b7b;
+  border-color: #121b7b ;
+  margin-left: 10px;
 
 }
+.volun{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding: 8px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: #121b7b;
+  border-color: #121b7b ;
+  margin-left: 10px;
+}
 .volunters a, .volunters a:visited, .volunters a:hover{
+  color: white;
+  text-decoration: none;
+}
+.volun a, .volun a:visited, .volun a:hover{
   color: white;
   text-decoration: none;
 }
@@ -653,7 +666,7 @@ justify-content: center;
 
 
 .head2{
-  background-color: #36c97b;
+  background-color: #f70000;
   color: white;
   text-align: center;
 }
@@ -930,7 +943,7 @@ text-decoration: none;
   opacity: 0.9;
 }
 .signupbtn1 {
-  background-color: #36c97b;
+  background-color: #f70000;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;

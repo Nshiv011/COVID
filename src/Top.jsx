@@ -4,11 +4,14 @@ import Modal from 'react-bootstrap/Modal';
 import { Button} from 'react-bootstrap';
 import MyVerticallyCenteredModal1 from "./Function1";
 import MyVerticallyCenteredModal2 from "./Function2";
+import MyVerticallyCenteredModal3 from "./Function3";
 
 
 const Top=()=>{
     const [modalShow1, setModalShow1] = React.useState(false);
     const [modalShow2, setModalShow2] = React.useState(false);
+    const [modalShow3, setModalShow3] = React.useState(false);
+   
     return(
         <>
         <div className="container-fluid ">
@@ -27,11 +30,18 @@ outbreak</h3>
         show={modalShow1} 
         onHide={() => setModalShow1(false)}/>
 
-<Button type="Button" variant="success"  onClick={() => setModalShow2(true)}>
+<Button type="Button" variant="danger"  onClick={() => setModalShow2(true)}>
 <i class="fas fa-user-tie"></i>Register As Service Provider</Button>
 <MyVerticallyCenteredModal2
         show={modalShow2} 
         onHide={() => setModalShow2(false)}/>
+
+
+<Button type="Button" variant="success"  onClick={() => setModalShow3(true)}>
+<i class="fas fa-user-tie"></i>Register Help My Village</Button>
+<MyVerticallyCenteredModal3
+        show={modalShow3} 
+        onHide={() => setModalShow3(false)}/>
                 </div>
 
                 </div>
