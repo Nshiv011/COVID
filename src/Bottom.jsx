@@ -25,16 +25,18 @@ const Bottom=()=>{
 
         </div>
         <div className="col-sm-2">
-        <img src={mental} className="but"/>
+        <button className="buttons">Mental Health</button>
         </div>
         <div className="col-sm-2">
-        <img src={ad} className='but'/>
+        <button className="buttons">Advisory</button>
         </div>
         <div className="col-sm-2">
-        <img src={health} className='but'/>
+        <button className="buttons1">Health Bulletin of COVID-19
+For Uttarakhand</button>
         </div>
         <div className="col-sm-2">
-        <img src={def} className='but'/>
+        <button className="buttons2">Dedicated Covid Facilities
+In Uttarakhand</button>
         </div>
         <div className="col-sm-2">
             
@@ -47,16 +49,17 @@ const Bottom=()=>{
 
 </div>
 <div className="col-sm-2">
-<img src={co} className='but'/>
+<button className="buttons">Corona Guideline</button>
 </div>
 <div className="col-sm-2">
-<img src={cl} className='but'/>
+<button className="buttons">Circulars/ Letters</button>
 </div>
 <div className="col-sm-2">
-<img src={de} className='but'/>
+<button className="buttons1">DENGUE Awereness
+Prevention Management</button>
 </div>
 <div className="col-sm-2">
-<img src={train} className='but'/>
+<button className="buttons">Training Material</button>
 </div>
 <div className="col-sm-2">
     
@@ -74,16 +77,16 @@ const Bottom=()=>{
         <div className="col-sm-2">
 
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-2 socials">
         <img src={facebook} className="facebook"/>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-2 socials">
         <img src={twitter} className="facebook"/>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-2 socials">
         <img src={link} className="facebook"/>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-2 socials-last">
         <img src={whatsapp} className="facebook"/>
         </div>
         <div className="col-sm-2">
