@@ -900,23 +900,28 @@ text-decoration: none;
 }
 
 .formp input[type=radio], input[name=paid] {
-  width: 20%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  width: 40%;
+ 
   display: inline-block;
   border: none;
   background: #f1f1f1;
   text-align: center;
+ 
 
 }
+.form-group{
+  margin-bottom: 0 !important;
+}
 .formp label[for=pay]{
-  width: 20%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  width: 40%;
+ 
   display: inline-block;
   border: none;
   background: #f1f1f1;
-  text-align: center;
+  text-align: left;
+  padding-top: 13px;
+  height: 50px;
+  margin-right: 20px;
 
 }
 
@@ -989,6 +994,24 @@ text-decoration: none;
 
 /* Form end */
 
+.supp{
+  background-color: #f78b00;
+  color: white;
+}
+.supp1{
+  background-color: #f70000 ;
+  color: white;
+}
+.city{
+  width: 100% !important;
+padding: 15px !important;
+margin: 5px 0 22px 0 !important;
+display: inline-block !important;
+border: none !important;
+background: #f1f1f1 !important;
+height: 50px !important;
+
+}
 .donor{
   background-color: #00122a;
   width: 100%;
