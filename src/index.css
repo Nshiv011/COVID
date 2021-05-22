@@ -492,6 +492,9 @@ background-image: url('./Images/back.png');
  padding-bottom: 4px !important;
  font-size: 11.6px;
 }
+.d-block{
+  height: 400px;
+}
 .but1{
   width: 100%;
 }

@@ -17,6 +17,7 @@ const Image=()=>{
     <a href="#"><img
       className="d-block w-100"
       src={image1}
+      sizes="200px"
       alt="First slide"
       
     />
