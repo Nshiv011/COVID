@@ -6,6 +6,7 @@ import Covid from "./Covid";
 import Sickpage from "./Sickpage";
 import Joinpage from "./Joinpage";
 import Resource from "./Resource";
+import Donor from "./Donor";
 
 
 const App=()=>{
@@ -20,6 +21,7 @@ const App=()=>{
         <Route exact path="/sick" component={Sickpage}/>
         <Route exact path="/join" component={Joinpage}/>
         <Route exact path="/res" component={Resource}/>
+        <Route exact path="/donor" component={Donor}/>
         </Switch>
         
         </>

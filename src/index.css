@@ -1,3 +1,19 @@
+.conatiner-fluid{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
+
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -916,7 +932,11 @@ text-decoration: none;
 
 /* Form end */
 
-
+.donor{
+  background-color: #00122a;
+  width: 100%;
+  padding: 100px;
+}
 
 
 
