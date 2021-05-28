@@ -20,7 +20,7 @@ const Header=()=>{
             <div className="container-fluid">
                 
                 <div className="row">
-<div className="col-sm-5 p">
+<div className="col-sm-5 p p1">
 
                 {/* Plasma */}
                 <NavDropdown title="PLASMA" id="basic-nav-dropdown" className="plasma">

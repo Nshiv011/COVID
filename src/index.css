@@ -157,7 +157,7 @@ margin-top: 17px;
 .head-second{
   text-align: center;
   color: white;
-  margin-top: 70px;
+  margin-top: 40px;
   font-size: 15px;
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -1107,8 +1107,55 @@ height: 50px !important;
 
 
 
+@media screen and (max-width: 1490px){
+  .quick{
+    font-size: 30px;
+  }
+  .p{
+    font-size: 12.5px;
+  }
+  .p1{
+    justify-content: right !important;
+  }
+  .plasma {
+    background-color: #121b7b;
+    border: 1px #121b7b solid;
+    border-radius: 150px;
+    margin-left: 24px !important;
+    font-weight: 600;
+    margin-right: 10px;
+}
+  .plasma a:visited, .plasma a, .plasma a:hover {
+    color: white;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    font-weight: 600;
+}
+.Important a:visited, .Important a, .Important a:hover {
+  color: white;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-weight: 600;
+}
+.resource a:visited, .resource a, .resource a:hover {
+  color: white;
+  font-weight: 600;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.volunters {
+  padding-left: 25px !important;
+  padding-right: 25px !important;}
 
+  .volun {
+    padding-left: 25px !important;
+    padding-right: 25px !important;}
 
+    .d-block{
+      height: 450px !important;
+    }
+
+}
 
 
 
@@ -1126,7 +1173,53 @@ height: 50px !important;
   .p{
     font-size: 12.5px;
   }
-  
+  .p1{
+    justify-content: right !important;
+  }
+  .plasma {
+    background-color: #121b7b;
+    border: 1px #121b7b solid;
+    border-radius: 150px;
+    margin-left: 24px !important;
+    font-weight: 600;
+    margin-right: 10px;
+}
+  .plasma a:visited, .plasma a, .plasma a:hover {
+    color: white;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    font-weight: 600;
+}
+.Important a:visited, .Important a, .Important a:hover {
+  color: white;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-weight: 600;
+}
+.resource a:visited, .resource a, .resource a:hover {
+  color: white;
+  font-weight: 600;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.volunters {
+  padding-left: 25px !important;
+  padding-right: 25px !important;}
+
+  .volun {
+    padding-left: 25px !important;
+    padding-right: 25px !important;}
+
+    .whats2 p {
+      font-size: 15px !important;
+  }
+
+  .d-block{
+    height: 400px !important;
+  }
+  .test {
+    margin-top: 20px !important;
+  }
 }
 
 @media screen and (max-width: 1300px){
@@ -1139,7 +1232,52 @@ height: 50px !important;
   .p{
     font-size: 11.5px;
   }
+  .p1{
+    justify-content: right !important;
+  }
+  .plasma {
+    background-color: #121b7b;
+    border: 1px #121b7b solid;
+    border-radius: 150px;
+    margin-left: 14px !important;
+    font-weight: 600;
+    margin-right: 10px;
+}
+  .plasma a:visited, .plasma a, .plasma a:hover {
+    color: white;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    font-weight: 600;
+}
+.Important a:visited, .Important a, .Important a:hover {
+  color: white;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-weight: 600;
+}
+.resource a:visited, .resource a, .resource a:hover {
+  color: white;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.volunters {
+  padding-left: 20px !important;
+  padding-right: 20px !important;}
 
+  .volun {
+    padding-left: 20px !important;
+    padding-right: 20px !important;}
+
+    .whats2 p {
+      font-size: 13.5px !important;
+  }
+  .d-block{
+    height: 350px !important;
+  }
+  .test {
+    margin-top: 80px !important;
+  }
   
 }
 
@@ -1152,6 +1290,51 @@ height: 50px !important;
   }
   .p{
     font-size: 10.5px;
+  }
+  .p1{
+    justify-content: right;
+  }
+  .plasma {
+    background-color: #121b7b;
+    border: 1px #121b7b solid;
+    border-radius: 150px;
+    margin-left: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+  .plasma a:visited, .plasma a, .plasma a:hover {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+.Important a:visited, .Important a, .Important a:hover {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+.resource a:visited, .resource a, .resource a:hover {
+  color: white;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.volunters {
+  padding-left: 20px !important;
+  padding-right: 20px !important;}
+
+  .volun {
+    padding-left: 20px !important;
+    padding-right: 20px !important;}
+    .whats2 p {
+      font-size: 13px !important;
+  }
+  .d-block{
+    height: 300px !important;
+  }
+  .test {
+    margin-top: 60px !important;
   }
   
 }
@@ -1168,7 +1351,74 @@ height: 50px !important;
     
   }
   .p{
-    font-size: 8.5px;
+    font-size: 12px;
   }
-  
+  .p1{
+    justify-content: right !important;
+  }
+  .plasma {
+    background-color: #121b7b;
+    border: 1px #121b7b solid;
+    border-radius: 150px;
+    margin-left: 14px !important;
+    font-weight: 600;
+    margin-right: 10px;
+}
+  .plasma a:visited, .plasma a, .plasma a:hover {
+    color: white;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: 600;
+}
+.Important a:visited, .Important a, .Important a:hover {
+  color: white;
+  padding-left: 13px !important;
+  padding-right: 15px !important;
+  font-weight: 600;
+}
+.resource a:visited, .resource a, .resource a:hover {
+  color: white;
+  font-weight: 600;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.volunters {
+  padding-left: 10px !important;
+  padding-right: 10px !important;}
+
+  .volun {
+    padding-left: 10px !important;
+    padding-right: 10px !important;}
+
+    .btn-warning{
+      padding-left: 50px !important;
+padding-right: 50px !important;
+    }
+    .btn-success{
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+    .whats2 p {
+      font-size: 12px;
+  }
+
+  .d-block{
+    height: 260px;
+  }
+  .buttons1{
+    font-size: 8.3px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+.buttons{
+  font-size: 12px;
+  padding-top: 8px !important;
+padding-bottom: 9px !important;
+}
+.buttons2{
+  font-size: 8.3px;
+}
+.test {
+  margin-top: 90px !important;
+}
 }
