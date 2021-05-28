@@ -17,7 +17,7 @@ import { Button} from 'react-bootstrap';
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton className="head2">
+        <Modal.Header closeButton className="head3">
           <Modal.Title id="contained-modal-title-vcenter">
           Register
           </Modal.Title>
@@ -58,7 +58,7 @@ import { Button} from 'react-bootstrap';
     <input type="text" placeholder="City:" name="mail" required/>
   
     <div class="clearfix">
-<button type="submit" class="signupbtn1">SUBMIT </button>    
+<button type="submit" class="signupbtn2">SUBMIT </button>    
 
       
     </div>

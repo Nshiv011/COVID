@@ -25,8 +25,8 @@ const Header=()=>{
                 {/* Plasma */}
                 <NavDropdown title="PLASMA" id="basic-nav-dropdown" className="plasma">
         <NavDropdown.Item className='itms' href="/home">Antibody Test</NavDropdown.Item>
-        <NavDropdown.Item href="#">Register As Donor</NavDropdown.Item>
-        <NavDropdown.Item href="#">Request for Plasma</NavDropdown.Item>
+        <NavDropdown.Item href="/donor">Register As Donor</NavDropdown.Item>
+        <NavDropdown.Item href="/plasma">Request for Plasma</NavDropdown.Item>
                 </NavDropdown>
 
 

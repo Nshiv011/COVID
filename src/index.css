@@ -670,6 +670,11 @@ justify-content: center;
   color: white;
   text-align: center;
 }
+.head3{
+  background-color: #36c97b;
+  color: white;
+  text-align: center;
+}
 .head1{
   background-color: #f78b00;
   color: white;
@@ -713,6 +718,72 @@ justify-content: center;
   padding-left: 0px !important;
   background-color: #e6e6e6;
   margin-top: 50px;
+}
+.donor{
+  background-image: url("./Images/sick.png");
+  opacity: 1;
+  background-repeat: no-repeat;
+  
+}
+.donor h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight:600;
+  color: white;
+  padding: 20px;
+  padding-top: 90px;
+  width: 100%;
+
+}
+.donor p{
+  color: #f78b00;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 80px;
+}
+.ttest{
+  margin-top: 20px;
+ 
+}
+.upload{margin-top: 20px;
+
+}
+.can{
+
+text-align: left;
+border-right: 1px solid #707070;
+}
+.canns{
+  margin-top: 100px;
+}
+.can h1{
+  text-align: left;
+  color: #36c97b;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+ 
+
+}
+.can ul{
+  font-size: 18px;
+}
+.cannot{
+  margin-left: 40px;
+}
+.cannot h1{
+  text-align: left;
+  color: #ff0014;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: left;
+
+}
+
+.exist{
+  margin-top: 20px;
 }
 .Title{
   text-align: center;
@@ -957,6 +1028,16 @@ text-decoration: none;
   width: 100%;
   opacity: 0.9;
 }
+.signupbtn2 {
+  background-color: #36c97b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
 .signupbtn1:hover{
   background-color: #36c97b;
   opacity: 1;
@@ -1012,11 +1093,7 @@ background: #f1f1f1 !important;
 height: 50px !important;
 
 }
-.donor{
-  background-color: #00122a;
-  width: 100%;
-  padding: 100px;
-}
+
 
 
 

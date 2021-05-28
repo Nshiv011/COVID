@@ -7,7 +7,7 @@ import Sickpage from "./Sickpage";
 import Joinpage from "./Joinpage";
 import Resource from "./Resource";
 import Donor from "./Donor";
-
+import Plasma from "./Plasma";
 
 const App=()=>{
     return(
@@ -22,6 +22,7 @@ const App=()=>{
         <Route exact path="/join" component={Joinpage}/>
         <Route exact path="/res" component={Resource}/>
         <Route exact path="/donor" component={Donor}/>
+        <Route exact path="/Plasma" component={Plasma}/>
         </Switch>
         
         </>

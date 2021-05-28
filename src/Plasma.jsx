@@ -1,21 +1,59 @@
 import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
+import Bottom from "./Bottom";
 import { Form,Button,Row,Col } from 'react-bootstrap';
 
-
-
-
-const Sick=()=>{
+const Plasma=()=>{
     return(
-        
         <>
+        <Header/>
+
         <div className="container-fluid ">
             <div className="row ">
-                <div className="col-sm-12 Sicks">
-                <h1>ARE YOU SICK?</h1>
-                    <p>Let us help you</p>
+                <div className="col-sm-12 donor">
+                <h1>COVID-19 Convalescent <br/>
+Plasma Donation</h1>
+                    <p>Request for Plasma!</p>
                 </div>
             </div>
         </div>
+
+
+    <div className="container-fluid">
+        <div className="row canns">
+            <div className="col-sm-2">
+    
+            </div>
+            
+            <div className="col-sm-4 can">
+    <h1>You CAN donate plasma if:</h1>
+    <ul>
+        <li>A patient positive for COVID-19 has been<br/> prescribed for Plasma by the attending doctor,<br/> patient may be of any age group
+</li>
+<li>You already have a replacement donor or not<br/> – if you have a donor then we will facilitate their <br/>donation of Plasma</li>
+
+    </ul>
+            </div>
+            <div className="col-sm-4 cannot">
+    <h1>You cannot donate plasma if:</h1>
+    <ul>
+        <li>Your weight is less than 50 kg</li>
+        <li>You have ever been pregnant</li>
+        <li>You are diabetic on insulin</li>
+        <li>Your Blood Pressure is more than 140 and diastolic</li>
+<li>less than 60 or more than 90</li>
+<li>You have uncontrolled diabetes or hypertension with</li>
+<li>change in medication in last 28 days</li>
+<li>You are a Cancer Survivor</li>
+<li>You have chronic kidney/heart/lung or liver disease.</li>
+    </ul>
+            </div>
+            <div className="col-sm-2">
+    
+            </div>
+        </div>
+    </div>
 
         <div className="container-fluid ">
             <div className="row ">
@@ -75,80 +113,6 @@ const Sick=()=>{
                         <Form.Label  className="lab">Phone No.</Form.Label>
                         <Form.Control  className="lab1" type="password" />
                     </Form.Group>
-                    <Form.Group controlId="formBasicPassword">
-                        <Form.Label  className="lab">Age</Form.Label>
-                        <Form.Control  className="lab1" type="password" />
-                    </Form.Group>
-
-                   
-
-
-  <fieldset>
-  <Form.Group as={Row}>
-                    <Form.Label  className="lab">Covid Positive</Form.Label>
-                    </Form.Group>         
-    <Form.Group as={Row}>
-      <Form.Label as="legend" column sm={2}>
-      </Form.Label>
-      <Col sm={10}>
-        <Form.Check
-        className="formcheck1"
-          type="radio"
-          label="Yes"
-          name="formHorizontalRadios"
-          id="formHorizontalRadios1"
-        />
-        <Form.Check
-        className="formcheck2"
-          type="radio"
-          label="No"
-          name="formHorizontalRadios"
-          id="formHorizontalRadios2"
-        />
-        
-      </Col>
-    </Form.Group>
-
-  </fieldset>
-
-
-  <Form.Group controlId="formBasicPassword" className='ttest'>
-                        <Form.Label  className="lab">Date of COVID Positive test</Form.Label>
-                        <Form.Control  className="lab1" type="date" />
-                    </Form.Group>
-
-  <Form>
-  <Form.Group className="upload">
-    <Form.File className="lab" id="exampleFormControlFile1" label="Covid Positive Report" />
-  </Form.Group>
-</Form>
-
-  <Form.Group controlId="exampleForm.ControlSelect1" className="exist">
-    <Form.Label className="lab">Existing Problem</Form.Label>
-    <Form.Control className="lab1" as="select">
-      <option>Fever</option>
-      <option>Cough</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </Form.Control>
-  </Form.Group>
-
-  <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label className="lab">Oxygen Level</Form.Label>
-    <Form.Control className="lab1" as="select">
-      <option>90-98</option>
-      <option>80-90</option>
-      <option>70-80</option>
-      <option>60-70</option>
-      <option>50-60</option>
-    </Form.Control>
-  </Form.Group>
-
-
-
-
-
 
 
   <fieldset>
@@ -229,50 +193,25 @@ const Sick=()=>{
     </Form.Group>
   </fieldset>
 
+  <Form.Group controlId="formBasicPassword">
+                        <Form.Label  className="lab">Date of COVID Positive test</Form.Label>
+                        <Form.Control  className="lab1" type="date" />
+                    </Form.Group>
 
 
 
-  <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label className="lab">Requirement</Form.Label>
-    <Form.Control className="lab1" as="select">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </Form.Control>
+
+
+                    <Form>
+  <Form.Group className="upload">
+    <Form.File className="lab" id="exampleFormControlFile1" label="Covid Positive Report" />
   </Form.Group>
+</Form>
 
-
-
-
-
-  <fieldset>
-  <Form.Group as={Row}>
-                    <Form.Label  className="lab">Ready to Donate Plasma After Recovery</Form.Label>
-                    </Form.Group>         
-    <Form.Group as={Row}>
-      <Form.Label as="legend" column sm={2}>
-      </Form.Label>
-      <Col sm={10}>
-        <Form.Check
-        className="formcheck1"
-          type="radio"
-          label="Yes"
-          name="formHorizontalRadios"
-          id="formHorizontalRadios1"
-        />
-        <Form.Check
-        className="formcheck2"
-          type="radio"
-          label="No"
-          name="formHorizontalRadios"
-          id="formHorizontalRadios2"
-        />
-        
-      </Col>
-    </Form.Group>
-  </fieldset>
+<Form.Group controlId="formBasicPassword">
+                        <Form.Label  className="lab">Name of the hospital</Form.Label>
+                        <Form.Control  className="lab1" type="password" />
+                    </Form.Group>
 
 
 
@@ -280,8 +219,16 @@ const Sick=()=>{
 
 
 
+<Form>
+  <Form.Group className="upload">
+    <Form.File className="lab" id="exampleFormControlFile1" label="Hospital Report(Upload)" />
+  </Form.Group>
+</Form>
 
-
+<Form.Group controlId="formBasicPassword">
+                        <Form.Label  className="lab">Any Critical Issue</Form.Label>
+                        <Form.Control  className="lab1" type="password" />
+                    </Form.Group>
 
 
 
@@ -298,14 +245,10 @@ const Sick=()=>{
             </div>
         </div>
 
-
-
-
-
-
+<Bottom/>
+<Footer/>
         </>
+    )
+}
 
-    );
-};
-
-export default Sick;
+export default Plasma;
